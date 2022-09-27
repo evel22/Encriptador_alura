@@ -1,0 +1,94 @@
+header{
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-style: normal;
+    color:#343A40;
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+body{
+    margin-top: 20px;
+    background-color: white;
+    background-image: url(/imagenes/fondo.jpg);
+}
+
+main{
+    display:flex;
+    margin-top: auto;
+    margin-left: 80px;
+    margin-bottom: 50px;  
+}
+
+
+.input-texto{
+    margin-top: 20px;
+    height: 350px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #ffffff;
+   
+}
+
+.mensaje{
+    position:relative;
+    height: 350px;
+    width:350px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color:#ffffff;
+    background-image: url("/imagenes/Muñeco.png"); 
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 150px;
+}
+
+
+.encriptar{
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    font-size: medium;
+    background: #3742fa;
+    border: white;
+    color:white;
+    border-radius: 10px;
+}
+
+.desencriptar{
+    margin-top: 20px;
+    height: 50px;
+    width: 180px;
+    font-size: medium;
+    background:#2f3542;
+    border:white;
+    color:white;
+    border-radius: 10px;   
+}
+
+
+.copiar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 50px;
+    width: 180px;
+    font-size: medium;
+    background: #ffa502;
+    border:white;
+    color:white;
+    border-radius: 10px;
+}
